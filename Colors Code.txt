@@ -1,0 +1,7 @@
+Black #000000
+Blue #0000ee
+Green #82b440
+White #ffffff
+DarkLight #262626
+Grey #545454
+Grey For Hover #000000
