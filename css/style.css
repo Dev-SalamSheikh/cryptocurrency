@@ -1,0 +1,87 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#hero{
+    background: url(../img/heroarea.png);
+    background-repeat: no-repeat;
+    background-color: #090F1F;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .content{
+    padding-top: 90px;
+}
+
+#hero .content h5{
+    color: #fff;
+    font-size: 16px;
+}
+
+#hero h1{
+    color: #fff;
+    font-size: 70px;
+    padding: 35px 0;
+}
+
+#hero p{
+    color: #fff;
+}
+
+.hero .icon{
+    color: black;
+    height: 4rem;
+    width: 4rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.social-icon i{
+    color: #fff;
+    font-size: 25px;
+    transition: .4s;
+}
+
+#hero .hero-bottom{
+    display: flex;
+}
+
+.btn-main{
+    color: #fff;
+    background-color: #336BFF;
+    text-decoration: none;
+    padding: 15px 50px;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.btn-main:hover{
+    color: #fff;
+    background-color: #E2572F;
+}
+
+.social-icon i:hover{
+    color: #2B5DDF;
+}
+
+.hero-footer{
+    background-color: #1C2231;
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.right-border{
+    border-right: 1px solid #fff;
+}
