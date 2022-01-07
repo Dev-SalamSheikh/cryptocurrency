@@ -5,33 +5,34 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+ul li{
+    list-style: none;
+}
+
 #hero{
     background: url(../img/heroarea.png);
     background-repeat: no-repeat;
+    background-size: 54% auto;
     background-color: #090F1F;
+    background-position: -225px -99px;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#hero .content{
-    padding-top: 90px;
-}
-
-#hero .content h5{
-    color: #fff;
-    font-size: 16px;
-}
-
 #hero h1{
     color: #fff;
     font-size: 70px;
-    padding: 35px 0;
+    padding: 10px 0;
 }
 
 #hero p{
     color: #fff;
+}
+
+.navbar{
+    background: #090F1F !important;
 }
 
 .hero .icon{
@@ -84,4 +85,227 @@
 
 .right-border{
     border-right: 1px solid #fff;
+}
+
+
+/* 
+Learn Section 
+*/
+
+#learn{
+    background: #090F1F;
+    padding: 90px 0;
+    color: #fff;
+}
+
+#learn .left-bottom{
+    border-top: 1px solid #3B3F4B;
+    padding: 30px 0;
+}
+
+#learn h2{
+    font-size: 40px;
+}
+
+#learn .upper-icon i{
+    color: #0F42E3;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#learn .left-bottom i{
+    color: #E03A2E;
+    padding-right: 7px;
+}
+
+#learn img{
+    margin-top: -80px;
+}
+
+#learn .learn-right-content h3{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#learn .learn-right-content .learn-social{
+    margin-top: 100px;
+}
+
+#learn .learn-right-content li{
+    display: block;
+    font-size: 30px;
+    padding-top: 15px;
+    transition: .4s;
+}
+
+#learn .learn-right-content li:hover{
+    color: #2B5DDF;
+}
+
+/* Feature Section */
+
+#feature{
+    background: #090F1F;
+    color: #fff;
+}
+
+.section-title h2{
+    font-size: 40px;
+}
+
+.section-title{
+    position: relative;
+}
+
+.title-content::before{ 
+    content: "";
+    background: #E03A2E;
+    width: 60px;
+    height: 4px;
+    position: absolute;
+    left: 47.5%;
+    top: -20px;
+}
+
+#feature .feature-content{
+    padding-top: 40px;
+}
+
+.feature-sigle{
+    border: 1px solid #3B3F4B;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+
+.feature-icon i{
+    font-size: 50px;
+    padding-left: 220px;
+    padding-top: 10px;
+}
+
+
+
+/* 
+logo section
+*/
+
+.logo{
+    background: #090F1F;
+    padding: 70px 0;
+}
+
+.logo-content{
+    position: relative;
+    color: #fff;
+}
+
+.logo-content::before{
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: #E03A2E;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.logo-images{
+    border: 1px solid #3B3F4B;
+    padding: 30px;
+}
+
+.logo-images .images{
+    border-right: 1px solid #3B3F4B;
+    padding-right: 30px;
+}
+
+.images:last-child{
+    border: none;
+}
+
+
+/* Menu Section */
+
+#menu{
+    background: #090F1F;
+}
+
+.menu-box{
+    border: 1px solid #3B3F4B;
+    border-radius: 10px;
+    padding: 50px 50px 0 50px;
+}
+
+.menu-content-left .menu-icon i{
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 45px;
+}
+
+#menu input{
+    height: 40px;
+    border-radius: 10px 0 0 10px;
+    color: #fff;
+}
+
+#menu input:focus,
+#menu button{
+    outline: none;
+    box-shadow: none;
+}
+
+#menu button{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    height: 40px;
+    border-radius: 0 10px 10px 0;
+    background-color: #2B5DDF;
+    border-color: #2B5DDF;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out;
+}
+
+#menu button:hover{
+    background-color: #E2572F;
+    border-color: #E2572F;
+}
+
+.menu-content-right{
+    padding-left: 10px;
+    padding-top: 120px;
+}
+
+.menu-content-right p{
+    color: #fff;
+}
+
+.menu-content-middle h2{
+    color: #fff;
+}
+
+.menu-content-middle ul li{
+    color: #0F42E3;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.menu-content-middle ul li:hover{
+    color: #E03A2E;
+}
+
+.menu-content-middle ul li i{
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.menu-content-left{
+    border-right: 1px solid #3B3F4B;
+}
+
+.menu-content-middle{
+    border-right: 1px solid #3B3F4B;
+    padding-bottom: 30px;
+    padding-left: 20px;
 }
