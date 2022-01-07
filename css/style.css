@@ -309,3 +309,162 @@ logo section
     padding-bottom: 30px;
     padding-left: 20px;
 }
+
+
+/* Rating Section*/
+
+#rating{
+    background: #090F1F;
+    padding-top: 90px;
+}
+
+.counting{
+    border: 1px solid #3B3F4B;
+    padding: 20px 60px;
+    text-align: center;
+}
+
+.col-left{
+    border-right: 1px solid #3B3F4B;
+}
+
+.col-right{
+    padding-left: 40px;
+}
+
+.rating-single{
+    padding-left: 100px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.rating-single .icon{
+    padding-right: 30px;
+}
+
+.rating-single i{
+    color: #fff;
+    height: 4rem;
+    width: 4rem;
+    font-size: 1.75rem;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #336BFF;
+}
+
+.rating-single .rating-right{
+    background-color: #1C2231;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.content{
+    position: relative;
+}
+
+.rating-single::before{
+    content: "";
+    width: 60px;
+    height: 20px;
+    background: #1C2231;
+    position: absolute;
+    left: 112px;
+    top: 12px;
+}
+
+.rating-right span{
+    position: absolute;
+    left: 76px;
+    top: 65px;
+    width: 7px;
+    height: 160px;
+    background: #E2572F;
+}
+
+/* Community Section Start */
+
+#community{
+    background: #090F1F;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.com-single{
+    border: 1px solid #3B3F4B;
+    border-radius: 10px;
+    padding: 30px;
+    transition: .4s;
+}
+
+.com-single:hover{
+    background: #1C2231;
+}
+
+.com-single i{
+    color: #4AA1EB;
+    font-size: 30px;
+    padding-left: 155px;
+    padding-top: 10px;
+}
+
+.com-single .discord{
+    color: #5865F2;
+}
+
+.com-single .reddit{
+    color: #FF4500;
+}
+
+/* Footer Section */
+
+footer{
+    background-color: #090F1F;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 1px solid #3B3F4B;
+}
+
+footer .find-us{
+    position: relative;
+}
+
+footer .find-us p::before {
+    content: "";
+    width: 340px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    top: 11px;
+    right: 0;
+}
+
+.footer-content li{
+    color: #0F42E3;
+    margin-top: 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.footer-content li:hover{
+    color: #FF4500;
+}
+
+/* Copyright Section */
+
+#copyright{
+    background: #1C2231;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.copyright-left-content span{
+    color: #2B5DDF;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.copyright-left-content span:hover{
+    color: #FF4500;
+}
